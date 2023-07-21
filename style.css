@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 10vh);
+    justify-content: center;
+    
+}
+
+.grid-container > div{
+    border: solid;
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.grid-container > div > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
